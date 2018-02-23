@@ -10,6 +10,9 @@ class PagesController < ApplicationController
     @text = stringify_instance.what_am_i
   end
 
+  def me
+  end
+
   def age
   end
 

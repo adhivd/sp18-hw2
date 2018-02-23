@@ -1,0 +1,50 @@
+<style type="text/css">
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+    body {
+        background-color: #f0f0f0;
+    }
+    #center {
+        background-color: white;
+        color: #333;
+        text-align: center;
+        padding: 10px;
+        width: 400px;
+        margin: 0 auto;
+        border-radius: 15px;
+        font-family: 'Open Sans', sans-serif;
+        box-shadow: 0px 7px 20px 0px rgba(0,0,0,0.08);
+        transition: all 0.5s ease;
+    }
+
+    #center:hover {
+        box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.15);
+    }
+
+
+    #center h2 {
+        font-weight: 100;
+    }
+
+    #center img {
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+    #center a {
+        color: #4fcaf7;
+    }
+
+    #center a:hover {
+        opacity: 0.6;
+    }
+</style>
+<div id="center">
+<h1>yo!</h1>
+<%= image_tag("me.png") do %>
+    <% end %>
+
+
+<h2>My name is Adhiv Dhar, I'm a freshman, and <a href="http://adhiv.com" target="blank">I love to design websites</a>!</h2>
+    <p>Looking forward to combing rails + my design experience to build really beautiful products :)</p>
+</div>
